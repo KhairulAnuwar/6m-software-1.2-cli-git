@@ -1,0 +1,126 @@
+
+
+* {
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+    background-color: #1a1a1a; /* Sets the background color to black */
+    color: white; /* Optional: Sets text color to white for better contrast */
+    font-size: 25px ;
+
+    /*outline: 1px red solid ;*/
+}
+
+
+
+.header {
+font-size: 50px; 
+font-family: "Rubik Mono One", Arial, Helvetica, sans-serif;   
+
+}
+
+nav{
+ display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.CohortTitle {
+    
+    font-family: "Bungee Tint", sans-serif;
+    text-align: center;
+    font-size: 50px;
+  }
+
+
+
+
+  .SCTPlogo{
+    transform: scale(0.40); 
+
+}
+
+article{
+    
+     color: white;
+  
+
+} 
+
+
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item{
+
+    Padding: 50px;
+    
+    }
+    
+
+        
+.aboutMe{
+    
+        
+    grid-column: 1;
+    justify-self: center; /* Center content horizontally within the grid item */
+    align-self: "self-start";     /* Center content vertically within the grid item */
+    max-width: 100%;
+    height: auto;    
+ }
+        
+          
+        
+        
+        
+.imageMe{
+     
+    
+    grid-column: 2;
+    justify-self: center; /* Center content horizontally within the grid item */
+    align-self: "self-end"; 
+  
+ }
+        
+        
+ .profile{
+    
+    
+    grid-column: 3;
+    justify-self: center; /* Center content horizontally within the grid item */
+    align-self: "self-start";     /* Center content vertically within the grid item */
+
+    
+     
+ }
+   
+ 
+ .styleul{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    list-style-type: none;
+    
+
+}
+
+
+
+.sociIcon{
+    display:flex;
+
+}
+
+        
+.headers{
+    
+    font-size: 40;
+}
+/* 
+to target ids: use #
+to target classes: use .
+to target every element: use * (universal selector)
+*/
